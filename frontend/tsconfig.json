@@ -9,11 +9,17 @@
 		"resolveJsonModule": true,
 		"isolatedModules": true,
 		"esModuleInterop": true,
-		"lib": ["ESNext", "DOM"],
-		"types": ["vite/client"],
+		"lib": [
+			"ESNext",
+			"DOM"
+		],
 		"paths": {
-			"@/*": ["./src/*"],
-			"vue": ["./node_modules/vue"],
+			"@/*": [
+				"./src/*"
+			],
+			"vue": [
+				"./node_modules/vue"
+			],
 			"@framework/ui/telemetry/index": [
 				"./node_modules/@framework/ui/src/telemetry/index.ts"
 			],
@@ -35,5 +41,9 @@
 		"src/**/*.vue",
 		"src/*.d.ts"
 	],
-	"references": [{ "path": "./tsconfig.node.json" }]
+	"references": [
+		{
+			"path": "./tsconfig.node.json"
+		}
+	]
 }
